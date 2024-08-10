@@ -11,7 +11,13 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <div>
+        <h1>Projects</h1>
+        <p>
+            Any relevant clubs, hackathons, or volunteer work
+            Hobbies that showcase your personality or complement your professional skills
+        </p>
+    </div>
   )
 }
 

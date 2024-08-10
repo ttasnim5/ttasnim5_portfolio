@@ -12,7 +12,14 @@ import React from 'react'
 
 function SkillsandTech() {
   return (
-    <div>SkillsandTech</div>
+    <div>
+        <h1>Skills and Competencies</h1>
+        <p>
+            Technical skills (programming languages, tools, frameworks)
+            Soft skills (communication, teamwork, problem-solving)
+        </p>
+
+    </div>
   )
 }
 
