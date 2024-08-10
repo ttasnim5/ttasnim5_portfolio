@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import './style.scss'
 
 import AboutMe from './components/AboutMe';
 import ContactInfo from './components/ContactInfo';
