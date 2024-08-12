@@ -1,12 +1,12 @@
 import React from 'react'
 
-function ContactInfo() {
+function Footer() {
   return (
-    <div>
-        <h1>Contact Information</h1>
+    <div className='footer'>
+        <h3>Contact Information</h3>
         <p>Please email me at tahsintasnim6@gmail.com if you would like to get in contact!</p>
     </div>
   )
 }
 
-export default ContactInfo
+export default Footer

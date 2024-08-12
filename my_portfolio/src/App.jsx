@@ -1,37 +1,30 @@
-import { useState } from 'react'
 import './style.scss'
 
-import AboutMe from './components/AboutMe';
-import ContactInfo from './components/ContactInfo';
-import SkillsandTech from './components/SkillsandTech';
-import Projects from './components/Projects';
-import WorkHistory from './components/WorkHistory';
-import Border from './components/Border';
+import { Route, Routes } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import AboutMe from './components/pages/AboutMe';
+import Projects from './components/pages/Projects';
+import WorkHistory from './components/pages/WorkHistory';
+import SkillsandTech from './components/pages/SkillsandTech';
+import Footer from './components/pages/Footer';
+
+// import { AboutMe, Projects, SkillsandTech, WorkHistory, ContactInfo } from "./components/pages";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   // add a search engine eventually !
-
   return (
     <>
-      <h1>Tahsin's Portfolio</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-
       <div>
-        <AboutMe />
-        <Border />
-        <SkillsandTech />
-        <Border />
-        <Projects />
-        <Border />
-        <WorkHistory />
-        <Border />
-        <ContactInfo />
+        <NavBar />
+
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/WorkHistory" element={<WorkHistory />} />
+          <Route path="/SkillsandTech" element={<SkillsandTech />} />
+        </Routes>
+
+        <Footer />
       </div>
       
     </>
