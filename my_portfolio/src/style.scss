@@ -9,7 +9,6 @@
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     display: flexbox;
-    max-width: 100%; /* Ensure no maximum width constraint */
     margin: 0 auto;
     padding: 0;
     -webkit-font-smoothing: antialiased;
@@ -196,7 +195,9 @@ nav {
 
 /* Home Page Styles */
 .home-page {
-    padding: 20px;
+    width: 95vw; /* Ensure no maximum width constraint */
+    height: 100vh;
+    padding: 25px;
 
     .tiles-container {
         display: flex;
