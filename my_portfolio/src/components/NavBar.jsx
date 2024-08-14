@@ -9,7 +9,10 @@ export default function NavBar () {
         Tahsin's Portfolio
       </Link>
       
-      <ul className="navtabs">
+      <ul>
+        <li>
+          <NavLink to="/AboutMe">About Me</NavLink>
+        </li>
         <li>
           <NavLink to="/Projects">Projects</NavLink>
         </li>

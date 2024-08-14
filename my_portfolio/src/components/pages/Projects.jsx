@@ -10,7 +10,7 @@ const corporatea_path = '../../assets/media/corporatea-functionality-demo.mp4'
 
 function Projects() {
   return (
-    <div>
+    <div className='projects'>
         <h2>Projects and Research</h2>
 
         <div>

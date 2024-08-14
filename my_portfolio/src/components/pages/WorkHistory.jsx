@@ -2,7 +2,7 @@ import React from 'react'
 
 function WorkHistory() {
   return (
-    <div>
+    <div className='work'>
         <h2>Work Experiences</h2>
 
         <div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function SkillsandTech() {
   return (
-    <div>
+    <div className='skills'>
         <h2>Skills and Competencies</h2>
 
       <div className='skillbox'>

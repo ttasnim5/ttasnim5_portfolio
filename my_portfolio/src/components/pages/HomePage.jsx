@@ -11,12 +11,14 @@ const HomePage = () => {
   ];
 
   return (
-    <div className="home-page">
-      {tiles.map((tile, index) => (
-        <Link to={tile.path} key={index} className="tile">
-          {tile.name}
-        </Link>
-      ))}
+    <div className='home-page'>
+        <div className="tiles-container">
+            {tiles.map((tile, index) => (
+                <Link to={tile.path} key={index} className="tile">
+                {tile.name}
+                </Link>
+            ))}
+      </div>
     </div>
   );
 };
