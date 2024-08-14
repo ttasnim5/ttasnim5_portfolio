@@ -7,6 +7,7 @@ import Projects from './components/pages/Projects';
 import WorkHistory from './components/pages/WorkHistory';
 import SkillsandTech from './components/pages/SkillsandTech';
 import Footer from './components/pages/Footer';
+import HomePage from './components/pages/HomePage';
 
 // import { AboutMe, Projects, SkillsandTech, WorkHistory, ContactInfo } from "./components/pages";
 
@@ -18,7 +19,8 @@ function App() {
         <NavBar />
 
         <Routes>
-          <Route path="/" element={<AboutMe />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/WorkHistory" element={<WorkHistory />} />
           <Route path="/SkillsandTech" element={<SkillsandTech />} />

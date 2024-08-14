@@ -1,8 +1,12 @@
 import React from 'react'
+import ReactPlayer from 'react-player';
 
+// import camel_run_path from '../../assets/media/camel_run_demo.mp4';
 // - Screenshots or demos
 // - Links to live sites or GitHub repositories
 
+const camel_run_path = '../../assets/media/camel_run_demo.mp4'
+const corporatea_path = '../../assets/media/corporatea-functionality-demo.mp4'
 
 function Projects() {
   return (
@@ -19,6 +23,7 @@ function Projects() {
                 This experience really honed my ability to learn new concepts on the fly and work efficiently under 
                 pressure, and also reinforced the importance of clear communication in a fast-paced environment.
             </p>
+            <ReactPlayer url={corporatea_path} controls={true} />
         </div>
 
         <div>
@@ -68,6 +73,7 @@ function Projects() {
                     Dinosaur Runner: Using PyGame, we created a fun running and obstacle-based game featuring dinosaurs. This 
                     project was a great way to apply my Python skills in a creative context, learning about game physics and 
                     user interaction along the way.
+                    <ReactPlayer url={camel_run_path} controls={true} />
                 </li>
                 <li>
                     CLI Gaming System: In a different approach to game development, I worked on a command-line interface (CLI) 
