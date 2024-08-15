@@ -86,19 +86,18 @@ button {
     }
 }
 
-.active {
-    background-color: #1d4ed8;
-}
-
 /* Header/Navigation Bar */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0f172a;
     color: white;
     position: sticky;
     top: 0;
+
+    background-image: url('./assets/navbar-bg.png');
+    background-size: cover;    // Ensures the image covers the entire div
+    box-shadow: 1px 1px 10px 1px white;
 
     .title {
         font-size: 1.5rem;
@@ -115,15 +114,17 @@ nav {
             list-style: none;
 
             a {
-                display: block;
+                display: flex;
                 text-decoration: none;
-                color: white;
+                color: black;
                 padding: 0.5rem;
                 margin: 0 0.5rem;
                 border-radius: 0.5rem;
+                background-color: #d8dff8c9;
 
-                &:not(.active):hover {
-                    background-color: #172554;
+                &:hover {
+                    color: white;
+                    background-color: #747bff;
                 }
             }
         }
@@ -135,14 +136,20 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0f172a;
-    color: white;
+    background-image: url('./assets/footer-bg.png');
+    background-size: cover;    // Ensures the image covers the entire div
+    border-bottom: 2px solid black;
+    box-shadow: 1px 1px 10px 1px white;
+    color: black;
     padding: 2px;
     bottom: 0;
 }
 
 .aboutme {
     padding: 20px;
+    background-image: url('./assets/page-bg.png');
+    background-size: cover;    // Ensures the image covers the entire div
+    background-position: center;  // Centers the image in the div
 
     h2 {
         font-size: 2.5em;
@@ -156,19 +163,39 @@ nav {
 
 .projects {
     padding: 20px;
+    background-image: url('./assets/page2-bg.png');
+    background-size: cover;    // Ensures the image covers the entire div
+    background-position: center;  // Centers the image in the div
 
     h2 {
         font-size: 2.5em;
-        color: #77a453;
+        color: white;
     }
 
     p {
         font-size: 1.2em;
+        color: white;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    ul {
+        display: flex;
+
+        li {
+            list-style: inside;
+            color: white;
+        }
     }
 }
 
 .work {
     padding: 20px;
+    background-image: url('./assets/page-bg.png');
+    background-size: cover;    // Ensures the image covers the entire div
+    background-position: center;  // Centers the image in the div
 
     h2 {
         font-size: 2.5em;
@@ -182,14 +209,29 @@ nav {
 
 .skills {
     padding: 20px;
+    background-image: url('./assets/page2-bg.png');
+    background-size: cover;    // Ensures the image covers the entire div
+    background-position: center;  // Centers the image in the div
 
     h2 {
         font-size: 2.5em;
-        color: #ef3dcc;
+        color: white;
+    }
+
+    h3 {
+        color: white;
     }
 
     p {
         font-size: 1.2em;
+        color: white;
+    }
+
+    ul {
+        li {
+            list-style: none;
+            color: white;
+        }
     }
 }
 
@@ -198,6 +240,10 @@ nav {
     width: 95vw; /* Ensure no maximum width constraint */
     height: 100vh;
     padding: 25px;
+    background-image: url('./assets/geo-bg.png');
+    background-size: cover;    // Ensures the image covers the entire div
+    background-position: center;  // Centers the image in the div
+
 
     .tiles-container {
         display: flex;
@@ -206,17 +252,27 @@ nav {
         align-items: center;
 
         .tile {
-            background-color: #f0f0f0;
+            width: 200px;  // Set the desired width of each tile
+            height: 200px; // Set the desired height of each tile
             padding: 20px;
             border-radius: 8px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: 1.5em;
             text-align: center;
-            text-decoration: none;
-            color: #333;
-            font-size: 20px;
-            transition: background-color 0.3s ease;
+            padding: 10px; // Adds space inside the tile, pushing the content inward
+            border: 3px solid white;  // Adjust the border thickness as needed
+            box-sizing: border-box; // Ensures padding is included in the tile's dimensions
+            box-shadow: 1px 1px 10px 1px white;
 
             &:hover {
-                background-color: #ddd;
+                border: 3px solid #4ab2be;
             }
         }
     }
