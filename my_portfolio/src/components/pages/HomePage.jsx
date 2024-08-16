@@ -27,7 +27,15 @@ const HomePage = () => {
                 <h2>{tile.name}</h2>
                 </Link>
             ))}
-      </div>
+        </div>
+
+        <h2>Hello, I'm Tahsin!</h2>
+        <p>
+            I'm a tech enthusiast who loves wearing many hats. From coding up fun websites and games to
+            crunching and researching data and more in between, I've dipped my toes in all sorts of exciting 
+            projects.I'm big on sustainable solutions and believe in tech that makes a real 
+            difference. Hope you enjoy my site :)
+        </p>
     </div>
   );
 };

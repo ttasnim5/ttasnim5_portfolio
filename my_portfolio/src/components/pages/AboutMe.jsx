@@ -9,14 +9,25 @@ function AboutMe() {
             University, set to graduate in 2025.
         </p>
         <p> My interests in the field primarily revolve around 
-            backend development, cybersecurity, and sustainability in technology. I'm drawn to backend 
-            work because I find it both challenging and rewarding, and I've already gained some valuable
-            experience in this area through personal and work projects. Cybersecurity fascinates me, 
-            especially given its dynamic nature and the constant innovation required to keep pace with 
-            emerging threats. As for sustainability, I'm passionate about aligning the technological 
-            world with our environment. I believe we have abundant collective intelligence to make 
-            significant strides in sustainable tech solutions.
+            backend development, cybersecurity, and sustainability in technology. 
+            <ul>
+                <li>
+                    I'm drawn to backend work because I find it both challenging and rewarding, and 
+                    I've already gained some valuable experience in this area through personal and work 
+                    projects.
+                </li>
+                <li>
+                Cybersecurity fascinates me, especially given its dynamic nature and the constant 
+                innovation required to keep pace with emerging threats.
+                </li>
+                <li>
+                    As for sustainability, I'm passionate about aligning the technological world with our 
+                    environment. I believe we have abundant collective intelligence to make significant strides 
+                    in sustainable tech solutions.
+                </li>
+            </ul>  
         </p>
+        <br></br>
         <p>
             In my professional journey so far, I've made a conscious effort to explore diverse industries, 
             including food service, receptionist work, historical work, and tech (of course). This varied 
