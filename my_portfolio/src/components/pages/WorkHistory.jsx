@@ -1,4 +1,5 @@
 import React from 'react'
+import Border from '../Border.jsx'
 
 function WorkHistory() {
   return (
@@ -12,6 +13,8 @@ function WorkHistory() {
             </p>
         </div>
 
+        <Border />
+
         <div>
             <h3>Fitness Factory - Front Desk Representative</h3>
             <p>
@@ -22,6 +25,8 @@ function WorkHistory() {
                 multitasking and maintaining a positive attitude, even during busy periods.
             </p>
         </div>
+
+        <Border />
 
         <div>
             <h3>Yonkers Partners in Education - Summer Programs Facilitator</h3>
@@ -40,6 +45,8 @@ function WorkHistory() {
             </p>
         </div>
 
+        <Border />
+
         <div>
             <h3>Fenway Dining, Boston University - Service Representative</h3>
             <p>
@@ -50,6 +57,8 @@ function WorkHistory() {
                 to communicate and work efficiently with others under pressure.
             </p>
         </div>
+
+        <Border />
 
         <div>
             <h3>Charles E. Shain Library, Linda Lear Center - Student Archivist</h3>
@@ -62,6 +71,8 @@ function WorkHistory() {
             </p>
         </div>
 
+        <Border />
+        
         <p>
             Each of these experiences has contributed to my growth, teaching me valuable skills in customer service, project
             management, communication, and organization. They've shown me how to adapt to different environments and have 
