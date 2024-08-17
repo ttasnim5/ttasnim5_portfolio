@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ttasnim5.github.io/ttasnim5_portfolio/"
+  "homepage": "https://ttasnim5.github.io/ttasnim5_portfolio/",
   "name": "my_portfolio",
   "private": true,
   "version": "0.0.0",
@@ -8,14 +8,13 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
-    "build": "vite build",
+    "build": "react-scripts build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-player": "^2.16.0",
     "sass": "^1.77.8"
   },
   "devDependencies": {
