@@ -19,11 +19,11 @@ function App() {
         <NavBar />
 
         <Routes>
-          <Route path="/ttasnim5_portfolio" element={<HomePage />} />
-          <Route path="/ttasnim5_portfolio/AboutMe" element={<AboutMe />} />
-          <Route path="/ttasnim5_portfolio/Projects" element={<Projects />} />
-          <Route path="/ttasnim5_portfolio/WorkHistory" element={<WorkHistory />} />
-          <Route path="/ttasnim5_portfolio/SkillsandTech" element={<SkillsandTech />} />
+          <Route path="/Home" element={<HomePage />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/WorkHistory" element={<WorkHistory />} />
+          <Route path="/SkillsandTech" element={<SkillsandTech />} />
         </Routes>
 
         <Footer />
