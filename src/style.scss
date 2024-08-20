@@ -78,19 +78,22 @@ button {
 
 /* Header/Navigation Bar */
 nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* A high value to ensure it's above other elements */
+
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
-    position: sticky;
-    top: 0;
-    width: 100%;
     background-image: url('./assets/navbar.png');
+    background-repeat: repeat-y;
     background-size: cover;
     box-shadow: 0 0 0.625rem 0.0625rem white;
 
     .title {
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin: 1rem;
         font-weight: bold;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -120,6 +123,9 @@ nav {
                 &:hover {
                     color: black;
                     background-color: #ffffff;
+                    box-shadow: 0 0 0.625rem 0.0625rem white;
+                    border-radius: 8%;
+                    transform: translateY(-0.25rem);
                 }
             }
         }
@@ -132,6 +138,7 @@ nav {
     flex-direction: column;
     align-items: center;
     background-image: url('./assets/footer-bg.png');
+    background-repeat: repeat-y;
     background-size: cover;
     border-bottom: 0.125rem solid black;
     box-shadow: 0 0 0.625rem 0.0625rem white;
@@ -144,6 +151,7 @@ nav {
 .aboutme, .projects, .work, .skills {
     padding: 1.25rem;
     background-size: cover;
+    background-repeat: repeat-y;
     background-position: center;
 
     h2 {
@@ -159,64 +167,64 @@ nav {
     background-image: url('./assets/page-bg.png');
 }
 
-.projects {
-    background-image: url('./assets/page2-bg.png');
+.projects, .skills {  
+
+    h2, h3, p {
+        color: white;
+    }
 
     ul {
-        display: flex;
-        flex-wrap: wrap;
-        list-style-type: none;
-        padding: 0;
-        justify-content: center;
-        gap: 0.625rem;
-
-        li {
-            flex-basis: 100%;
-            padding: 0.625rem;
-            text-align: center;
-            box-sizing: border-box;
-            border: 0.0625rem solid rgba(255, 255, 255, 0.537);
-            box-shadow: 0 0 0.3125rem 0.0625rem rgba(255, 255, 255, 0.702);
-            border-radius: 0.3125rem;
-            margin: 0.3125rem 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+  
+      @media (min-width: 40rem) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+  
+      li {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 1rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+  
+        &:hover {
+          transform: translateY(-0.25rem);
         }
+      }
     }
-}
+  }
+  
+  .projects {
+    background-image: url('./assets/page2-bg.png');
+  }
+  
+  .skills {
+    background-image: url('./assets/page2-bg.png');
+  
+    .internal {
+      display: flex; // Reset to block display for internal list
+  
+      li {
+        background-color: #d7f2cd;
+        color: black;
+        margin-top: 0.5rem;
+        transform: none; // Remove hover effect for internal items
+  
+        &:hover {
+          transform: none;
+        }
+      }
+    }
+  }
 
-.work {
+  .work {
     background-image: url('./assets/page-bg.png');
-}
-
-.skills {
-    background-image: url('./assets/page2-bg.png');
-
-    ul {
-        display: flex;
-        flex-wrap: wrap;
-        list-style-type: none;
-        padding: 0;
-        justify-content: center;
-        gap: 0.625rem;
-
-        li {
-            flex-basis: 100%;
-            padding: 0.625rem;
-            text-align: center;
-            box-sizing: border-box;
-            border: 0.0625rem solid rgba(255, 255, 255, 0.537);
-            box-shadow: 0 0 0.3125rem 0.0625rem rgba(255, 255, 255, 0.702);
-            border-radius: 0.3125rem;
-            margin: 0.3125rem 0;
-        }
-
-        .internal {
-            li {
-                background-color: #d7f2cd;
-                color: black;
-            }
-        }
-    }
-}
+  }
 
 /* Home Page Styles */
 .home-page {
@@ -225,6 +233,7 @@ nav {
     padding: 1.5625rem;
     background-image: url('./assets/geo-bg.png');
     background-size: cover;
+    background-repeat: repeat-y;
     background-position: center;
 
     .tiles-container {
@@ -241,8 +250,8 @@ nav {
             padding: 1.25rem;
             border-radius: 0.5rem;
             background-size: cover;
+            background-repeat: repeat-y;
             background-position: center;
-            background-repeat: no-repeat;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -255,7 +264,7 @@ nav {
             box-shadow: 0 0 0.625rem 0.0625rem white;
 
             &:hover {
-                border: 0.1875rem solid #4ab2be;
+                transform: translateY(-0.25rem);
             }
 
             h2 {
