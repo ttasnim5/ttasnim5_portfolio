@@ -38,11 +38,11 @@ body {
 
 p {
     font-family:'Segoe UI';
-    font-size: clamp(1rem);
+    font-size: 1rem;
 }
 
 h1 {
-    font-size: clamp(2.5rem);
+    font-size: 2.5rem;
     line-height: 1.2;
 }
 
@@ -60,7 +60,7 @@ button {
     border-radius: 0.5rem;
     border: 0.0625rem solid transparent;
     padding: 0.6em 1.2em;
-    font-size: clamp(1rem);
+    font-size: 1rem;
     font-weight: 500;
     font-family: inherit;
     cursor: pointer;
@@ -90,7 +90,7 @@ nav {
     box-shadow: 0 0 0.625rem 0.0625rem white;
 
     .title {
-        font-size: clamp(1.5rem);
+        font-size: 1.5rem;
         margin: 1rem;
         font-weight: bold;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -147,11 +147,11 @@ nav {
     background-position: center;
 
     h2 {
-        font-size: clamp(2rem);
+        font-size: 2rem;
     }
 
     p {
-        font-size: clamp(1rem);
+        font-size: 1rem;
     }
 }
 
@@ -247,7 +247,7 @@ nav {
             align-items: center;
             justify-content: center;
             color: black;
-            font-size: clamp(1.2rem);
+            font-size: 1.2rem;
             text-align: center;
             padding: 0.625rem;
             border: 0.1875rem solid white;
