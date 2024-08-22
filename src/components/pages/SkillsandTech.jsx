@@ -30,7 +30,7 @@ function SkillsandTech() {
 
         <div>
           <li>
-              <h3>Software Profieciency</h3>
+              <h3>Software Proficiency</h3>
               <ul className='internal'>
                   <li>Microsoft Office Suite (Excel, Word, PowerPoint)</li>
                   <li>Google Workspace</li>
