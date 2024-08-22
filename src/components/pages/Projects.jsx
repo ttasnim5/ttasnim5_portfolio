@@ -3,6 +3,7 @@ import React from 'react'
 import camel_run from '../../assets/media/camel_run_demo.mp4'
 import corporatea from '../../assets/media/corporatea-functionality-demo.mp4'
 import msd_pdf from '../../assets/media/prevalence of msds.pdf'
+import aerocade from '../../assets/media/aerocade_demo.mp4'
 
 function Projects() {
   return (
@@ -101,6 +102,10 @@ function Projects() {
                             create engaging gameplay experiences within the constraints of a text-based interface. It was a great 
                             exercise in logical thinking and user experience design, even without complex graphics.
                         </p>
+                        <video width="320" height="240" controls>
+                            <source src={aerocade} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
                     </li>
                 </ul>
                 <p>

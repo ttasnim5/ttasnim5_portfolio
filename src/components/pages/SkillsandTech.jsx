@@ -5,9 +5,8 @@ function SkillsandTech() {
     <div className='skills'>
         <h2>Skills and Competencies</h2>
 
-      <div>
-
         <ul>
+        <div>
           <li>
               <h3>Technical Skills</h3>
               <ul className='internal'>
@@ -16,7 +15,9 @@ function SkillsandTech() {
                   <li>Mobile Development: React Native, Expo</li>
               </ul>
           </li>
+        </ div>
 
+        <div>
           <li>
               <h3>Professional Skills</h3>
               <ul className='internal'>
@@ -25,7 +26,9 @@ function SkillsandTech() {
                   <li>Collaboration and Teamwork</li>
               </ul>
           </li>
+        </ div>
 
+        <div>
           <li>
               <h3>Software Profieciency</h3>
               <ul className='internal'>
@@ -34,7 +37,9 @@ function SkillsandTech() {
                   <li>Adobe Photoshop</li>
               </ul>
           </li>
+        </ div>
 
+        <div>
           <li>
               <h3>Languages</h3>
               <ul className='internal'>
@@ -43,9 +48,9 @@ function SkillsandTech() {
                   <li>Bengali: Fluent</li>
               </ul>
           </li>
-        </ul>
+        </ div>
 
-      </div>
+        </ul>
 
         <p>
           I've built up these skills through my academic and independent studies, as well as various work 
