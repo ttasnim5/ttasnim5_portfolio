@@ -197,6 +197,17 @@
   .aboutme {
     background-image: url('./assets/page-bg.png');
     background-color: #ffedf5;
+
+    .space {
+      margin-left: 2rem;
+      margin-right: 2rem;
+
+      ul {
+        margin-left: 10rem;
+        list-style:lower-alpha;
+        text-align: left;
+      }
+    }
   }
   
   .projects, .skills {  
