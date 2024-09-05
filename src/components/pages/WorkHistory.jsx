@@ -17,7 +17,13 @@ function WorkHistory() {
                 a wonderful time learning and working with my team, and the experience has definitely laid a solid foundation 
                 for my future in tech and beyond.
             `
-        }, 
+        }, {
+            title: "Event Operations Assistant - Boston University Dance Theatre",
+            description: `In my event management role, I've learned many diverse skills. I handle reservations and patron 
+            assistance with precision, collaborate seamlessly with multiple partners and partner organizations, and provide 
+            support for attendees with accessibility needs. These experiences have sharpened my communication, adaptability, 
+            and problem-solving abilities, so I can guarantee smooth operations and inclusive experiences for everyone.`
+        },
         {
             title: "Fitness Factory - Front Desk Representative",
             description: `My time at Fitness Factory was all about creating a welcoming environment for clients. I was the 
