@@ -95,7 +95,7 @@
     flex-direction: column;
     align-items: center;
     color: white;
-    background-image: url('./assets/navbar.png');
+    background-color: #DA8359;
     background-repeat: repeat-y;
     background-size: cover;
     box-shadow: 0 0 0.625rem 0.0625rem white;
@@ -195,8 +195,11 @@
   }
   
   .aboutme {
-    background-image: url('./assets/page-bg.png');
-    background-color: #ffedf5;
+    background-color: #FCFAEE;
+
+    h2, h3 {
+      color: #181C14
+    }
 
     .space {
       margin-left: 2rem;
@@ -211,8 +214,7 @@
   }
   
   .projects, .skills {  
-    background-image: url('./assets/page2-bg.png');
-    background-color: #5b7954;
+    background-color: #A5B68D;
   
     h2, h3, p {
       color: white;
@@ -227,7 +229,7 @@
       margin: 0;
   
       li {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: #da8459c1;
         padding: 1rem;
         border-radius: 0.5rem;
         box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
@@ -267,9 +269,12 @@
   }
   
   .work {
-    background-image: url('./assets/page-bg.png');
-    background-color: #ffedf5;
+    background-color: #FCFAEE;
   
+    h2 {
+      color: #181C14
+    }
+
     .experience-list {
       list-style-type: none;
       padding: 0;
@@ -293,7 +298,7 @@
   
     .experience-title {
       padding: 15px;
-      background-color: #ffffffa0;
+      background-color: #ffffffe6;
       font-weight: bold;
       border: .5px solid #82c771;
     }
@@ -301,7 +306,7 @@
     .experience-description {
       padding: 15px;
       border: .5px solid #e8762a;
-      background-color: #ffffff7d;
+      background-color: #ffffffdd;
     }
   
     @media (min-width: 768px) {
@@ -338,15 +343,16 @@
   .home-page {
     width: 100%;
     min-height: 100vh;
-    background-color: #fdfaf2;
+    background-color: #ECDFCC;
   
     h2 {
-      color: white;
+      color: black;
     }
   
     p {
-      background-color: rgba(255, 255, 255, 0.76);
+      background-color: #DA8359;
       padding: 0.625rem;
+      color: white;
       border-radius: 0.625rem;
     }
   
@@ -372,7 +378,7 @@
         color: black;
         font-size: 1rem;
         text-align: center;
-        border: 0.1875rem solid white;
+        border: 0.01rem solid black;
         box-shadow: 0 0 0.625rem 0.0625rem white;
   
         &:hover {
