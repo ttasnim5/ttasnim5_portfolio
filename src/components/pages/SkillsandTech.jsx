@@ -10,8 +10,8 @@ function SkillsandTech() {
           <li>
               <h3>Technical Skills</h3>
               <ul className='internal'>
-                  <li>Programming Languages: Java, JavaScript, Python, SQL</li>
-                  <li>Web Development: PERN Stack (PostgreSQL, Express.js, React, Node.js), Postman</li>
+                  <li>Programming Languages: Java, JavaScript, Python, SQL, OCaml</li>
+                  <li>Web Development: Django, PERN Stack (PostgreSQL, Express.js, React, Node.js), Postman, Heroku</li>
                   <li>Mobile Development: React Native, Expo</li>
               </ul>
           </li>
